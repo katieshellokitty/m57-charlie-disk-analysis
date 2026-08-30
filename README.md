@@ -55,10 +55,59 @@ A more detailed breakdown is available in `findings.md`.
 9. Correlated timestamps to reconstruct user activity.
 10. Documented relevant findings.
 
-## Screenshots
+## Evidence Screenshots
 
-Supporting screenshots are located in the `screenshots` folder.
+### Autopsy Case Overview
 
+Both forensic disk images were loaded into the same Autopsy case for comparison.
+
+![Autopsy Case Overview](screenshots/01-case-overview.png)
+
+### Thunderbird Internet Download
+
+The Thunderbird installer contained a Zone.Identifier with `ZoneId=3`, indicating that Windows classified the file as originating from the Internet Zone.
+
+![Thunderbird Zone Identifier](screenshots/02-thunderbird-zone-identifier.png)
+
+### Thunderbird Installation
+
+The Thunderbird installation log confirmed installation of Mozilla Thunderbird on the workstation.
+
+![Thunderbird Installation Log](screenshots/04-thunderbird-install-log.png)
+
+### Thunderbird Email Usage
+
+A recovered sent-mail artifact originated from Charlie's Thunderbird profile.
+
+![Thunderbird Email Usage](screenshots/05-thunderbird-email-usage.png)
+
+### WIPO Download Activity
+
+Firefox download artifacts showed a file from WIPO being saved into Charlie's Quantum Cryptography directory.
+
+![WIPO Download](screenshots/06-wipo-download-artifact.png)
+
+### Disk Image Comparison
+
+The Quantum Cryptography folder was absent from Charlie's My Documents directory in the November image.
+
+![November Baseline](screenshots/08-november-baseline.png)
+
+The directory was present in the December image with a filesystem creation timestamp.
+
+![Quantum Cryptography Folder](screenshots/09-quantum-folder-created.png)
+
+### Removable Storage
+
+Windows artifacts identified a SanDisk Cruzer Micro U3 removable storage device connected to the workstation.
+
+![SanDisk USB Artifact](screenshots/10-sandisk-usb-artifact.png)
+
+### Technical Web Searches
+
+Browser artifacts showed searches involving steganography and file-analysis tools.
+
+![Technical Web Searches](screenshots/11-technical-web-searches.png)
 ## Disclaimer
 
 This project was completed for educational and portfolio purposes using a publicly available forensic training dataset.
