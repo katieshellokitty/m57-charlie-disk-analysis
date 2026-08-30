@@ -61,53 +61,64 @@ A more detailed breakdown is available in `findings.md`.
 
 Both forensic disk images were loaded into the same Autopsy case for comparison.
 
-![Autopsy Case Overview](screenshots/01-case-overview.png)
+![Autopsy Case Overview](screenshots/02-autopsy-case-overview.png)
 
 ### Thunderbird Internet Download
 
 The Thunderbird installer contained a Zone.Identifier with `ZoneId=3`, indicating that Windows classified the file as originating from the Internet Zone.
 
-![Thunderbird Zone Identifier](screenshots/02-thunderbird-zone-identifier.png)
+![Thunderbird Zone Identifier](screenshots/06-thunderbird-zone-identifier.png)
+
+### Thunderbird Installer Metadata
+
+Autopsy was used to review the Thunderbird installer and its filesystem metadata.
+
+![Thunderbird Installer Metadata](screenshots/08-thunderbird-installer-metadata.png)
 
 ### Thunderbird Installation
 
 The Thunderbird installation log confirmed installation of Mozilla Thunderbird on the workstation.
 
-![Thunderbird Installation Log](screenshots/04-thunderbird-install-log.png)
+![Thunderbird Installation Log](screenshots/10-thunderbird-install-log.png)
 
 ### Thunderbird Email Usage
 
 A recovered sent-mail artifact originated from Charlie's Thunderbird profile.
 
-![Thunderbird Email Usage](screenshots/05-thunderbird-email-usage.png)
+![Thunderbird Email Usage](screenshots/17-thunderbird-sent-email-source.png)
 
 ### WIPO Download Activity
 
 Firefox download artifacts showed a file from WIPO being saved into Charlie's Quantum Cryptography directory.
 
-![WIPO Download](screenshots/06-wipo-download-artifact.png)
+![WIPO Download](screenshots/21-wipo-data-artifact.png)
 
-### Disk Image Comparison
+### Downloaded WIPO File
+
+The corresponding WIPO file was located on the filesystem.
+
+![WIPO File Metadata](screenshots/23-wipo-file-metadata.png)
+
+### November Disk Image Baseline
 
 The Quantum Cryptography folder was absent from Charlie's My Documents directory in the November image.
 
-![November Baseline](screenshots/08-november-baseline.png)
+![November Baseline](screenshots/24-november-my-documents-baseline.png)
+
+### Quantum Cryptography Directory
 
 The directory was present in the December image with a filesystem creation timestamp.
 
-![Quantum Cryptography Folder](screenshots/09-quantum-folder-created.png)
+![Quantum Cryptography Folder](screenshots/26-quantum-folder-created-metadata.png)
 
 ### Removable Storage
 
 Windows artifacts identified a SanDisk Cruzer Micro U3 removable storage device connected to the workstation.
 
-![SanDisk USB Artifact](screenshots/10-sandisk-usb-artifact.png)
+![SanDisk USB Artifact](screenshots/33-sandisk-usb-artifact.png)
 
 ### Technical Web Searches
 
 Browser artifacts showed searches involving steganography and file-analysis tools.
 
-![Technical Web Searches](screenshots/11-technical-web-searches.png)
-## Disclaimer
-
-This project was completed for educational and portfolio purposes using a publicly available forensic training dataset.
+![Technical Web Searches](screenshots/37-web-searches-3.png)
