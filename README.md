@@ -10,6 +10,13 @@ The goal of the investigation was to compare two snapshots of Charlie's workstat
 
 What user activity, files, programs, and Internet activity appeared or changed on Charlie's workstation between the November 12 and December 11 disk images?
 
+## Project Files
+
+- [Evidence Log](evidence-log.md)
+- [Investigation Findings](findings.md)
+- [Forensic Timeline](timeline.md)
+- [Evidence Screenshots](screenshots/)
+
 ## Tools Used
 
 - Autopsy 4.23.1
