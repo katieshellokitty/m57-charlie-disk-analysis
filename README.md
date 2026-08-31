@@ -134,7 +134,7 @@ Windows artifacts identified a SanDisk Cruzer Micro U3 removable storage device 
 
 ![SanDisk USB Artifact](screenshots/33-sandisk-usb-artifact.png)
 
-### Technical Web Searches
+### Technical Web Searches ![Technical Web Searches](screenshots/37-web-searches-3.png)
 ### Steganography Software Identified
 
 Keyword analysis identified Invisible Secrets 2.1, an application with encryption and steganography capabilities.
