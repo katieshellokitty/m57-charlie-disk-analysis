@@ -45,7 +45,17 @@ The original disk images are not included in this repository.
 
 ## Key Findings
 
-Findings from the investigation include software installation and use, email activity, technical web searches, removable storage activity, and changes to files and directories between the two disk images.
+The investigation identified several significant changes and activities between the two forensic images:
+
+- Mozilla Thunderbird was downloaded, installed, and used for email communication.
+- An email instructed Charlie to research quantum cryptography patents for a new company contract.
+- A `Quantum Cryptography` directory was later created and populated with patent-related files, including downloads from WIPO.
+- Browser artifacts showed searches related to steganography, 7-Zip, and hex editors.
+- Invisible Secrets 2.1, an encryption/steganography application, was identified on the workstation.
+- Windows Prefetch evidence confirmed that `ISECRETS2.EXE` was executed, with Autopsy reporting a run count of 4.
+- Multiple removable-storage devices were identified.
+
+Detailed findings are available in [findings.md](findings.md).
 
 A more detailed breakdown is available in `findings.md`.
 
