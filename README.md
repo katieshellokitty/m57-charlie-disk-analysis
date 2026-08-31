@@ -135,6 +135,23 @@ Windows artifacts identified a SanDisk Cruzer Micro U3 removable storage device 
 ![SanDisk USB Artifact](screenshots/33-sandisk-usb-artifact.png)
 
 ### Technical Web Searches
+### Steganography Software Identified
+
+Keyword analysis identified Invisible Secrets 2.1, an application with encryption and steganography capabilities.
+
+![Invisible Secrets](screenshots/13-invisible-secrets-metadata.png)
+
+### Invisible Secrets Execution
+
+Windows Prefetch evidence confirmed that `ISECRETS2.EXE` was executed on the workstation. Autopsy reported a run count of 4.
+
+![Invisible Secrets Prefetch](screenshots/14-invisible-secrets-prefetch.png)
+
+### Quantum Cryptography Research Context
+
+An email instructed Charlie and Jo to research quantum cryptography patents for a new company contract, providing context for the later research activity.
+
+![Quantum Cryptography Email](screenshots/16-quantum-cryptography-email-context.png)
 
 Browser artifacts showed searches involving steganography and file-analysis tools.
 
